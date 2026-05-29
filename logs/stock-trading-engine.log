@@ -1,0 +1,200 @@
+2026-05-29T15:19:11.876+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Starting StockTradingEngineApplication using Java 21.0.11 with PID 9500 (C:\Users\Lenovo\Downloads\stock-trading-engine\target\classes started by Lenovo in C:\Users\Lenovo\Downloads\stock-trading-engine)
+2026-05-29T15:19:11.879+05:30 DEBUG 9500 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-05-29T15:19:11.881+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-05-29T15:19:12.099+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-29T15:19:12.099+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-29T15:19:15.204+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-29T15:19:15.402+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 177 ms. Found 4 JPA repository interfaces.
+2026-05-29T15:19:17.351+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-29T15:19:17.389+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-29T15:19:17.393+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-05-29T15:19:17.592+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-29T15:19:17.592+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5491 ms
+2026-05-29T15:19:18.108+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-29T15:19:18.336+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-05-29T15:19:18.430+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-29T15:19:19.171+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-29T15:19:19.263+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-29T15:19:20.292+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fa26e59
+2026-05-29T15:19:20.318+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-29T15:19:22.698+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-29T15:19:24.209+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T15:19:26.278+05:30  WARN 9500 --- [stock-trading-engine] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-29T15:19:27.690+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-29T15:19:27.790+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-29T15:19:27.840+05:30  INFO 9500 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Started StockTradingEngineApplication in 17.213 seconds (process running for 18.725)
+2026-05-29T17:16:32.690+05:30  WARN 9500 --- [stock-trading-engine] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h51m12s221ms886µs300ns).
+2026-05-29T18:06:24.942+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Starting StockTradingEngineApplication using Java 21.0.11 with PID 5436 (C:\Users\Lenovo\Downloads\stock-trading-engine\target\classes started by Lenovo in C:\Users\Lenovo\Downloads\stock-trading-engine)
+2026-05-29T18:06:24.947+05:30 DEBUG 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-05-29T18:06:24.949+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-05-29T18:06:25.086+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-29T18:06:25.086+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-29T18:06:27.687+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-29T18:06:27.854+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 4 JPA repository interfaces.
+2026-05-29T18:06:29.431+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-29T18:06:29.471+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-29T18:06:29.473+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-05-29T18:06:29.624+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-29T18:06:29.625+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4537 ms
+2026-05-29T18:06:30.058+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-29T18:06:30.265+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-05-29T18:06:30.368+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-29T18:06:31.156+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-29T18:06:31.234+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-29T18:06:32.584+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fbc666a
+2026-05-29T18:06:32.589+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-29T18:06:35.775+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-29T18:06:36.088+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T18:06:40.031+05:30  WARN 5436 --- [stock-trading-engine] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-29T18:06:42.974+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-29T18:06:43.163+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-29T18:06:43.200+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Started StockTradingEngineApplication in 19.246 seconds (process running for 20.396)
+2026-05-29T18:08:27.166+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-29T18:08:27.170+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-29T18:08:27.174+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-05-29T18:08:27.399+05:30  WARN 5436 --- [stock-trading-engine] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.trading.entity.User com.trading.controller.UserController.registerUser(com.trading.dto.UserRequest)]
+2026-05-29T18:08:42.255+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-4] com.trading.service.UserService          : Registering user with email: gauresh@gmail.com
+2026-05-29T18:09:47.860+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-7] com.trading.service.UserService          : Registering user with email: rohit@gmail.com
+2026-05-29T18:09:58.864+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-8] com.trading.service.UserService          : Registering user with email: virat@gmail.com
+2026-05-29T18:10:10.450+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-9] com.trading.service.UserService          : Registering user with email: dhoni@gmail.com
+2026-05-29T18:10:26.963+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-10] com.trading.service.UserService          : Registering user with email: hardik@gmail.com
+2026-05-29T18:11:34.814+05:30  WARN 5436 --- [stock-trading-engine] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.trading.entity.Stock com.trading.controller.StockController.addStock(com.trading.dto.StockRequest)]
+2026-05-29T18:11:54.556+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-5] com.trading.service.StockService         : Adding stock: ABC
+2026-05-29T18:12:07.462+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-6] com.trading.service.StockService         : Adding stock: TCS
+2026-05-29T18:12:16.091+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-7] com.trading.service.StockService         : Adding stock: INFY
+2026-05-29T18:12:25.664+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-8] com.trading.service.StockService         : Adding stock: RELIANCE
+2026-05-29T18:12:34.734+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-9] com.trading.service.StockService         : Adding stock: HDFC
+2026-05-29T18:13:35.373+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-2] com.trading.service.OrderService         : Placing SELL order for userId: 1, stock: ABC
+2026-05-29T18:14:37.973+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-5] com.trading.service.OrderService         : Placing BUY order for userId: 1, stock: ABC
+2026-05-29T18:14:37.999+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-5] com.trading.service.OrderService         : Trade executed: BUY_ORDER=2, SELL_ORDER=1, QTY=100, PRICE=200.00
+2026-05-29T18:15:05.449+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-6] com.trading.service.OrderService         : Placing BUY order for userId: 1, stock: TCS
+2026-05-29T18:15:22.788+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-7] com.trading.service.OrderService         : Placing SELL order for userId: 2, stock: TCS
+2026-05-29T18:15:22.810+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-7] com.trading.service.OrderService         : Trade executed: BUY_ORDER=3, SELL_ORDER=4, QTY=10, PRICE=3500.00
+2026-05-29T18:16:36.656+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-10] com.trading.service.UserService          : Fetching all users
+2026-05-29T18:17:26.324+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-1] com.trading.service.StockService         : Fetching all stocks
+2026-05-29T18:18:17.214+05:30  WARN 5436 --- [stock-trading-engine] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-05-29T18:18:32.654+05:30  WARN 5436 --- [stock-trading-engine] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource orders.]
+2026-05-29T18:20:46.117+05:30  INFO 5436 --- [stock-trading-engine] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-05-29T18:20:46.153+05:30  INFO 5436 --- [stock-trading-engine] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T18:20:46.162+05:30  INFO 5436 --- [stock-trading-engine] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-29T18:20:46.204+05:30  INFO 5436 --- [stock-trading-engine] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-29T18:20:46.516+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Starting StockTradingEngineApplication using Java 21.0.11 with PID 5436 (C:\Users\Lenovo\Downloads\stock-trading-engine\target\classes started by Lenovo in C:\Users\Lenovo\Downloads\stock-trading-engine)
+2026-05-29T18:20:46.517+05:30 DEBUG 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-05-29T18:20:46.518+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-05-29T18:20:47.753+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-29T18:20:47.857+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 4 JPA repository interfaces.
+2026-05-29T18:20:48.434+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-29T18:20:48.437+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-29T18:20:48.438+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-05-29T18:20:48.502+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-29T18:20:48.505+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1973 ms
+2026-05-29T18:20:48.642+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-29T18:20:48.653+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-29T18:20:48.691+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-29T18:20:48.698+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-05-29T18:20:48.740+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29c1a353
+2026-05-29T18:20:48.741+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-05-29T18:20:49.181+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-29T18:20:49.330+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T18:20:49.811+05:30  WARN 5436 --- [stock-trading-engine] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-29T18:20:50.557+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-29T18:20:50.748+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-29T18:20:50.783+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Started StockTradingEngineApplication in 4.409 seconds (process running for 867.978)
+2026-05-29T18:20:50.787+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-29T18:23:00.905+05:30  INFO 5436 --- [stock-trading-engine] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (1 addition, 1 deletion, 3 modifications)
+2026-05-29T18:23:00.919+05:30  INFO 5436 --- [stock-trading-engine] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T18:23:00.920+05:30  INFO 5436 --- [stock-trading-engine] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-05-29T18:23:00.931+05:30  INFO 5436 --- [stock-trading-engine] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-05-29T18:23:01.110+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Starting StockTradingEngineApplication using Java 21.0.11 with PID 5436 (C:\Users\Lenovo\Downloads\stock-trading-engine\target\classes started by Lenovo in C:\Users\Lenovo\Downloads\stock-trading-engine)
+2026-05-29T18:23:01.111+05:30 DEBUG 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-05-29T18:23:01.117+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-05-29T18:23:01.257+05:30  WARN 5436 --- [stock-trading-engine] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.trading.StockTradingEngineApplication]
+2026-05-29T18:23:01.351+05:30 ERROR 5436 --- [stock-trading-engine] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.trading.StockTradingEngineApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:417) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.trading.StockTradingEngineApplication.main(StockTradingEngineApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'orderService' for bean class [com.trading.service.OrderService] conflicts with existing, non-compatible bean definition of same name and class [com.trading.controller.OrderService]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.14.jar:6.1.14]
+	... 16 common frames omitted
+
+2026-05-29T18:23:13.582+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Starting StockTradingEngineApplication using Java 21.0.11 with PID 5436 (C:\Users\Lenovo\Downloads\stock-trading-engine\target\classes started by Lenovo in C:\Users\Lenovo\Downloads\stock-trading-engine)
+2026-05-29T18:23:13.582+05:30 DEBUG 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-05-29T18:23:13.583+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-05-29T18:23:14.647+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-29T18:23:14.706+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+2026-05-29T18:23:15.017+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-29T18:23:15.019+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-29T18:23:15.020+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-05-29T18:23:15.068+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-29T18:23:15.069+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1483 ms
+2026-05-29T18:23:15.235+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-29T18:23:15.251+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-29T18:23:15.272+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-29T18:23:15.275+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-05-29T18:23:15.423+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b1a3b5f
+2026-05-29T18:23:15.423+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-05-29T18:23:15.772+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-29T18:23:15.857+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T18:23:16.482+05:30  WARN 5436 --- [stock-trading-engine] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-29T18:23:16.781+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-29T18:23:16.840+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-29T18:23:16.882+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Started StockTradingEngineApplication in 3.415 seconds (process running for 1014.078)
+2026-05-29T18:23:16.885+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-29T18:23:38.958+05:30  INFO 5436 --- [stock-trading-engine] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-05-29T18:23:38.972+05:30  INFO 5436 --- [stock-trading-engine] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T18:23:38.973+05:30  INFO 5436 --- [stock-trading-engine] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-05-29T18:23:38.985+05:30  INFO 5436 --- [stock-trading-engine] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-05-29T18:23:39.141+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Starting StockTradingEngineApplication using Java 21.0.11 with PID 5436 (C:\Users\Lenovo\Downloads\stock-trading-engine\target\classes started by Lenovo in C:\Users\Lenovo\Downloads\stock-trading-engine)
+2026-05-29T18:23:39.142+05:30 DEBUG 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Running with Spring Boot v3.3.5, Spring v6.1.14
+2026-05-29T18:23:39.146+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-05-29T18:23:40.116+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-29T18:23:40.323+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 205 ms. Found 4 JPA repository interfaces.
+2026-05-29T18:23:40.571+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-29T18:23:40.573+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-29T18:23:40.580+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-05-29T18:23:40.629+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-29T18:23:40.633+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1482 ms
+2026-05-29T18:23:40.805+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-29T18:23:40.833+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-29T18:23:40.874+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-29T18:23:40.880+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-05-29T18:23:40.907+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2433198f
+2026-05-29T18:23:40.908+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-05-29T18:23:41.138+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-29T18:23:41.279+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T18:23:41.591+05:30  WARN 5436 --- [stock-trading-engine] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-29T18:23:41.791+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-29T18:23:41.802+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-29T18:23:41.807+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] c.trading.StockTradingEngineApplication  : Started StockTradingEngineApplication in 2.716 seconds (process running for 1039.002)
+2026-05-29T18:23:41.810+05:30  INFO 5436 --- [stock-trading-engine] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-29T18:23:48.067+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-29T18:23:48.068+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-29T18:23:48.070+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-29T18:23:48.073+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-2] com.trading.service.OrderService         : Fetching all orders
+2026-05-29T18:27:42.855+05:30  INFO 5436 --- [stock-trading-engine] [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 958 ms
+2026-05-29T18:31:01.734+05:30  INFO 5436 --- [stock-trading-engine] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 42 class path changes (0 additions, 42 deletions, 0 modifications)
+2026-05-29T18:31:02.000+05:30  INFO 5436 --- [stock-trading-engine] [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T18:31:02.033+05:30  INFO 5436 --- [stock-trading-engine] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-05-29T18:31:02.236+05:30  INFO 5436 --- [stock-trading-engine] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.

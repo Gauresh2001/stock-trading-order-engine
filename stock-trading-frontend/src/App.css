@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #111827, #1e3a8a);
+  color: white;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  font-size: 24px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #93c5fd;
+}
+
+.container {
+  padding: 35px;
+}
+
+h1 {
+  margin-bottom: 25px;
+  color: #111827;
+}
+
+.hero {
+  background: white;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #1e3a8a;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #4b5563;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  padding: 30px;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form {
+  background: white;
+  padding: 22px;
+  border-radius: 14px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.06);
+}
+
+input {
+  padding: 13px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  min-width: 220px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 13px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+button.sell {
+  background: #dc2626;
+}
+
+button.sell:hover {
+  background: #991b1b;
+}
+
+button.cancel {
+  background: #f97316;
+  padding: 8px 14px;
+}
+
+button.cancel:hover {
+  background: #c2410c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.06);
+}
+
+th {
+  background: #1e3a8a;
+  color: white;
+  padding: 14px;
+  text-align: left;
+}
+
+td {
+  padding: 13px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+tr:hover {
+  background: #f9fafb;
+}
+
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.status.open {
+  background: #2563eb;
+}
+
+.status.partial {
+  background: #f97316;
+}
+
+.status.filled {
+  background: #16a34a;
+}
+
+.status.cancelled {
+  background: #dc2626;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards,
+  .book-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+
+  input,
+  button {
+    width: 100%;
+  }
+
+  table {
+    font-size: 13px;
+  }
+}
