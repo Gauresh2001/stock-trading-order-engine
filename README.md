@@ -4,227 +4,155 @@
 
 ### Enterprise-Grade Full Stack Stock Trading Platform
 
-<img width="100%" src="https://user-images.githubusercontent.com/placeholder/banner.png"/>
-
-![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
+![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=openjdk)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-6DB33F?style=for-the-badge&logo=springboot)
 ![React](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger)
+![Maven](https://img.shields.io/badge/Maven-Build-red?style=for-the-badge&logo=apachemaven)
 
 ### 🚀 Real-Time Order Matching • FIFO Execution • Market Depth Tracking
+
+A powerful and scalable Stock Trading Order Engine built using Spring Boot, React.js, and MySQL. The platform simulates the core functionality of a modern stock exchange by allowing users to place buy and sell orders, automatically match orders, execute trades, and maintain an accurate order book.
 
 </div>
 
 ---
 
-# 🌟 About The Project
+# 🌟 Project Overview
 
-The Stock Trading Order Engine is a full-stack enterprise-grade trading platform that simulates the core functionality of a modern stock exchange. Users can place buy and sell orders, automatically match compatible orders based on price and time priority, execute trades, and monitor order books in real time.
+The Stock Trading Order Engine is a full-stack enterprise-level trading platform designed to simulate how real-world stock exchanges process orders and execute trades.
 
-This project was developed to demonstrate advanced backend engineering concepts such as transaction management, concurrent order processing, layered architecture, DTO pattern implementation, validation, exception handling, API documentation, and professional frontend integration.
+The system allows users to register, manage stocks, place buy/sell orders, automatically match compatible orders based on price and FIFO strategy, generate trades, and maintain separate order books for market depth analysis.
 
----
+This project demonstrates advanced backend concepts such as:
 
-# 🎯 Business Problem
-
-Traditional stock exchanges process millions of orders every day. The core challenge is matching BUY and SELL orders efficiently while maintaining fairness and execution priority.
-
-This project solves that problem by implementing:
-
-✅ Price Priority Matching
-
-✅ FIFO (First In First Out) Execution
-
-✅ Partial Order Fulfillment
-
-✅ Order Book Management
-
-✅ Trade Execution Tracking
-
-✅ Market Depth Monitoring
-
----
-
-# 🔥 Key Highlights
-
-<table>
-<tr>
-<td width="50%">
-
-### Backend Features
-
-- User Management
-- Stock Management
-- Buy Orders
-- Sell Orders
-- Trade Execution
-- Order Matching Engine
-- Partial Matching
-- FIFO Strategy
-- Market Depth APIs
-- Order Book APIs
-- Trade History
-- Validation
+- Layered Architecture
+- DTO Pattern
+- Transaction Management
+- Concurrency-Safe Processing
 - Exception Handling
 - Logging
+- API Documentation
+- Database Design
+- Full Stack Integration
+
+---
+
+# 🎯 Business Scenario
+
+In a stock exchange, users submit BUY and SELL orders for stocks.
+
+Example:
+
+```text
+User A Places:
+
+BUY 100 Shares of TCS @ ₹3500
+
+User B Places:
+
+SELL 100 Shares of TCS @ ₹3500
+
+Result:
+
+Trade Executed Successfully
+```
+
+The platform automatically identifies matching orders and executes trades while updating the order book.
+
+---
+
+# ✨ Key Features
+
+## 👤 User Management
+
+- Register New Users
+- View User Details
+- Manage User Accounts
+- Track User Order History
+
+---
+
+## 📊 Stock Management
+
+- Add Stocks
+- View Available Stocks
+- Manage Stock Information
+
+---
+
+## 💹 Trading Engine
+
+- Place BUY Orders
+- Place SELL Orders
+- Automatic Order Matching
+- FIFO Order Execution
+- Price Priority Matching
+- Partial Order Matching
+- Trade Generation
+
+---
+
+## 📖 Order Book
+
+- Separate BUY Order Book
+- Separate SELL Order Book
+- Market Depth Tracking
+- Open Order Monitoring
+
+---
+
+## 📈 Trade Management
+
+- Recent Trades
+- Trade History
+- Executed Trade Tracking
+
+---
+
+## 🏢 Enterprise Features
+
+- DTO Pattern
+- Layered Architecture
+- Input Validation
+- Global Exception Handling
+- SLF4J Logging
+- Logback Logging
 - Swagger Documentation
-
-</td>
-
-<td width="50%">
-
-### Frontend Features
-
-- Professional Dashboard
-- User Management UI
-- Stock Management UI
-- Order Placement Screen
-- Trade History Screen
-- Market Depth Screen
-- Responsive Design
-- Axios Integration
-- React Router Navigation
-
-</td>
-</tr>
-</table>
+- Transaction Management
+- Concurrency Safe Processing
 
 ---
 
-# 🏢 Enterprise Architecture
+# 🏗️ System Architecture
 
 ```text
-┌──────────────────────────┐
-│      React Frontend      │
-└────────────┬─────────────┘
-             │
-             ▼
-┌──────────────────────────┐
-│       REST APIs          │
-└────────────┬─────────────┘
-             │
-             ▼
-┌──────────────────────────┐
-│    Spring Boot Backend   │
-└────────────┬─────────────┘
-             │
-   ┌─────────┼─────────┐
-   ▼         ▼         ▼
+┌─────────────────────────────┐
+│       React Frontend        │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│          REST APIs          │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│      Spring Boot API        │
+└──────────────┬──────────────┘
+               │
+     ┌─────────┼─────────┐
+     ▼         ▼         ▼
 
-Controller  Service  Repository
+ Controller  Service  Repository
 
-             │
-             ▼
+               │
+               ▼
 
-┌──────────────────────────┐
-│         MySQL            │
-└──────────────────────────┘
-```
-
----
-
-# 📸 Project Preview
-
-## Dashboard
-
-<img src="screenshots/dashboard.png"/>
-
-## User Management
-
-<img src="screenshots/users.png"/>
-
-## Stock Management
-
-<img src="screenshots/stocks.png"/>
-
-## Order Management
-
-<img src="screenshots/orders.png"/>
-
-## Trade History
-
-<img src="screenshots/trades.png"/>
-
-## Order Book
-
-<img src="screenshots/orderbook.png"/>
-
----
-
-# 📊 Database Design
-
-### User Table
-
-| Column | Type |
-|----------|----------|
-| id | BIGINT |
-| name | VARCHAR |
-| email | VARCHAR |
-| balance | DECIMAL |
-| created_at | TIMESTAMP |
-
-### Stock Table
-
-| Column | Type |
-|----------|----------|
-| id | BIGINT |
-| symbol | VARCHAR |
-| company_name | VARCHAR |
-
-### Order Table
-
-| Column | Type |
-|----------|----------|
-| id | BIGINT |
-| user_id | BIGINT |
-| stock_id | BIGINT |
-| order_type | ENUM |
-| price | DECIMAL |
-| quantity | INTEGER |
-| remaining_quantity | INTEGER |
-| status | ENUM |
-
-### Trade Table
-
-| Column | Type |
-|----------|----------|
-| id | BIGINT |
-| buy_order_id | BIGINT |
-| sell_order_id | BIGINT |
-| quantity | INTEGER |
-| price | DECIMAL |
-
----
-
-# 📈 Order Matching Example
-
-BUY Order
-
-```text
-User A
-Stock : TCS
-Price : ₹3500
-Quantity : 100
-```
-
-SELL Order
-
-```text
-User B
-Stock : TCS
-Price : ₹3500
-Quantity : 50
-```
-
-Execution
-
-```text
-Executed Quantity : 50
-
-Remaining BUY Quantity : 50
-
-Trade Generated Successfully
+┌─────────────────────────────┐
+│           MySQL             │
+└─────────────────────────────┘
 ```
 
 ---
@@ -233,39 +161,408 @@ Trade Generated Successfully
 
 | Category | Technology |
 |-----------|------------|
-| Backend | Spring Boot |
-| Frontend | React.js |
-| Database | MySQL |
+| Language | Java 17 |
+| Backend | Spring Boot 3 |
 | ORM | Hibernate |
-| API Docs | Swagger |
+| Persistence | Spring Data JPA |
+| Database | MySQL |
+| Frontend | React.js |
+| Routing | React Router DOM |
+| HTTP Client | Axios |
+| API Docs | Swagger OpenAPI |
+| Logging | SLF4J + Logback |
 | Build Tool | Maven |
-| Logging | SLF4J / Logback |
-| Validation | Jakarta Validation |
-| Communication | Axios |
 
 ---
 
-# 🚀 Future Enhancements
+# 📂 Project Structure
 
-- JWT Authentication
-- Role Based Access Control
-- WebSocket Live Market Updates
-- Portfolio Management
-- Watchlist Feature
-- Trading Analytics Dashboard
-- Real-Time Price Updates
-- Docker Deployment
-- AWS Deployment
+```text
+stock-trading-order-engine
+│
+├── stock-trading-backend
+│   │
+│   ├── controller
+│   ├── service
+│   ├── repository
+│   ├── entity
+│   ├── dto
+│   ├── config
+│   ├── enums
+│   ├── exception
+│   └── resources
+│
+├── stock-trading-frontend
+│   │
+│   ├── components
+│   ├── pages
+│   ├── services
+│   ├── assets
+│   └── styles
+│
+├── screenshots
+│
+├── postman
+│
+└── README.md
+```
 
 ---
 
-# 👨‍💻 Developed By
+# 🗄️ Database Design
+
+## User
+
+```text
+id
+name
+email
+balance
+created_at
+```
+
+## Stock
+
+```text
+id
+symbol
+company_name
+```
+
+## Order
+
+```text
+id
+user_id
+stock_id
+order_type
+price
+quantity
+remaining_quantity
+status
+created_at
+```
+
+## Trade
+
+```text
+id
+buy_order_id
+sell_order_id
+price
+quantity
+executed_at
+```
+
+---
+
+# 🔄 Order Matching Strategy
+
+The Trading Engine follows industry-standard matching principles.
+
+## Price Priority
+
+```text
+Highest BUY Price Wins
+
+Lowest SELL Price Wins
+```
+
+---
+
+## FIFO Execution
+
+```text
+Orders having same price
+
+↓
+
+Earlier Order Executes First
+```
+
+---
+
+## Partial Matching
+
+Example:
+
+```text
+BUY Order
+
+Quantity = 100
+
+SELL Order
+
+Quantity = 50
+
+Trade Executed = 50
+
+Remaining BUY Quantity = 50
+```
+
+---
+
+# 📡 API Endpoints
+
+## User APIs
+
+```http
+POST   /users
+GET    /users
+```
+
+---
+
+## Stock APIs
+
+```http
+POST   /stocks
+GET    /stocks
+```
+
+---
+
+## Order APIs
+
+```http
+POST    /orders/buy
+POST    /orders/sell
+GET     /orders
+GET     /orders/user/{userId}
+DELETE  /orders/{id}
+```
+
+---
+
+## Trade APIs
+
+```http
+GET /trades/stock/{symbol}
+```
+
+---
+
+## Order Book APIs
+
+```http
+GET /orderbook/{symbol}
+```
+
+---
+
+# 📸 Screenshots
+
+## Dashboard
+
+```text
+Add Dashboard Screenshot Here
+```
+
+---
+
+## User Management
+
+```text
+Add Users Screenshot Here
+```
+
+---
+
+## Stock Management
+
+```text
+Add Stocks Screenshot Here
+```
+
+---
+
+## Orders Management
+
+```text
+Add Orders Screenshot Here
+```
+
+---
+
+## Trade History
+
+```text
+Add Trade Screenshot Here
+```
+
+---
+
+## Order Book
+
+```text
+Add Order Book Screenshot Here
+```
+
+---
+
+## Swagger UI
+
+```text
+Add Swagger Screenshot Here
+```
+
+---
+
+# 📖 Swagger Documentation
+
+After running the backend:
+
+```text
+http://localhost:8080/swagger-ui.html
+```
+
+Swagger provides:
+
+- API Testing
+- Endpoint Documentation
+- Request Validation
+- Response Models
+
+---
+
+# 🚀 Backend Setup
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/stock-trading-order-engine.git
+```
+
+---
+
+### Move To Backend
+
+```bash
+cd stock-trading-backend
+```
+
+---
+
+### Configure Database
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/stock_trading_db
+spring.datasource.username=root
+spring.datasource.password=root
+
+spring.jpa.hibernate.ddl-auto=update
+```
+
+---
+
+### Run Backend
+
+```bash
+mvn clean install
+
+mvn spring-boot:run
+```
+
+Backend URL:
+
+```text
+http://localhost:8080
+```
+
+---
+
+# 🚀 Frontend Setup
+
+### Move To Frontend
+
+```bash
+cd stock-trading-frontend
+```
+
+---
+
+### Install Packages
+
+```bash
+npm install
+```
+
+---
+
+### Run Application
+
+```bash
+npm run dev
+```
+
+Frontend URL:
+
+```text
+http://localhost:5173
+```
+
+---
+
+# 📜 Logging
+
+The application uses:
+
+```text
+SLF4J
+Logback
+```
+
+Log File:
+
+```text
+logs/stock-trading-engine.log
+```
+
+---
+
+# 🧪 Testing Resources
+
+Included in Repository:
+
+✅ Swagger Screenshots
+
+✅ Postman Collection
+
+✅ MySQL Database Script
+
+✅ Frontend Screenshots
+
+✅ API Response Screenshots
+
+✅ Project Documentation
+
+---
+
+# 📚 Learning Outcomes
+
+This project demonstrates practical experience in:
+
+- Spring Boot Development
+- REST API Design
+- DTO Pattern
+- Exception Handling
+- Order Matching Algorithms
+- Database Design
+- Transaction Management
+- React.js Development
+- Swagger Documentation
+- Enterprise Application Architecture
+
+---
+
+# 👨‍💻 Author
 
 ## Gauresh Badgujar
 
-Java Full Stack Developer
+### Java Full Stack Developer
 
-📧 gauresh2211@gmail.com
+📧 Email:
+gauresh2211@gmail.com
 
 🔗 LinkedIn:
 https://www.linkedin.com/in/gauresh-badgujar-0824b7215/
@@ -274,8 +571,8 @@ https://www.linkedin.com/in/gauresh-badgujar-0824b7215/
 
 <div align="center">
 
-### ⭐ Don't forget to Star this Repository
+### ⭐ If you found this project useful, don't forget to Star the Repository!
 
-Made with ❤️ using Spring Boot, React.js and MySQL
+🚀 Built with Spring Boot • React.js • MySQL • Swagger • JPA • Hibernate
 
 </div>
